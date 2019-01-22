@@ -29,6 +29,8 @@ namespace BasicMathLib
 
             double area = Math.Sqrt(preSqr);
             return area.ToString();
+
+            //TEST !!
         }
     }
 }
