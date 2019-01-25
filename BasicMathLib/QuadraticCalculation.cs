@@ -39,7 +39,7 @@ namespace BasicMathLib
 
             if(discriminant > 0)
             {
-                Console.WriteLine("\nRoots are Disctinct\n");
+                Console.WriteLine("\nRoots are Distinct\n");
                 root1 = (-b + Math.Sqrt(discriminant)) / (2 * a);
                 root2 = (-b + Math.Sqrt(discriminant)) / (2 * a);
                 return string.Format("Positive x is {0:#.##} + i {1:#.##} and Negative x is {0:#.##} - i {1:#.##}", root1, root2);
